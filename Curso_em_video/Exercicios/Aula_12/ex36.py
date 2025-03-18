@@ -13,6 +13,6 @@ parcela = valor / (prestacao * 12)
 print(f'A parcela ficará: R${parcela:.2f}')
 if parcela >= limite:
     print(
-        '\033[31mEmprestimo negado, valor da prestação maior do que 30% do salario![m')
+        '\033[31mEmprestimo negado, valor da prestação maior do que 30% do salario!\033[m')
 else:
     print('\033[32mFinanciamento aprovado!\033[m')
