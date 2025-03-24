@@ -6,11 +6,11 @@ existam moedas de 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real.
 Não havendo moeda de um tipo, a quantidade respectiva é zero.
 '''
 
-m1 = float(input('Quantas moedas de 0.01 você tem? '))
-m2 = float(input('Quantas moedas de 0.05 você tem? '))
-m3 = float(input('Quantas moedas de 0.10 você tem? '))
-m4 = float(input('Quantas moedas de 0.25 você tem? '))
-m5 = float(input('Quantas moedas de 0.50 você tem? '))
+m1 = int(input('Quantas moedas de 0.01 você tem? '))
+m2 = int(input('Quantas moedas de 0.05 você tem? '))
+m3 = int(input('Quantas moedas de 0.10 você tem? '))
+m4 = int(input('Quantas moedas de 0.25 você tem? '))
+m5 = int(input('Quantas moedas de 0.50 você tem? '))
 m6 = int(input('Quantas moedas de 1 real você tem?'))
 umCent = m1 * 0.01
 cincoCent = m2 * 0.05
@@ -22,4 +22,4 @@ total = umCent + cincoCent + dezCent + vinteCincoCent + cinqCent + umCent
 if total == 0:
     print('Você não tem dinheiro!')
 else:
-    print(f'Você tem {total} Reais.')
+    print(f'Você tem {total:.2f} Reais.')

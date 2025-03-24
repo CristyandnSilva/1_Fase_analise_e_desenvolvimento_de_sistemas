@@ -5,7 +5,6 @@ suco são necessários para se fazer X litros de refresco (informados pelo
 usuário).
 '''
 refresco = float(input('Quantos litros de suco você vai querer fazer? '))
-agua = (refresco) * 8 / 10
-sucoMaracuja = (refresco) * 2 / 10
-medida = agua  + sucoMaracuja
-print(f'Você precisará de {agua}L de água e {sucoMaracuja}L de suco de maracujá! para fazer {medida}L de Suco')
+agua = (refresco) * 0.8
+sucoMaracuja = (refresco) * 0.2
+print(f'Você precisará de {agua}L de água e {sucoMaracuja}L de suco de maracujá! para fazer {refresco}L de Suco')
