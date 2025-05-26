@@ -17,4 +17,4 @@ while contador < n:
             print(f' X {i}', end='')
         i -= 1
     print(f' = {fatorial}')
-    contador += 1 
+    contador += 1

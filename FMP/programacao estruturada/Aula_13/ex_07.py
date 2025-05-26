@@ -9,6 +9,7 @@ while True:
         break    
     if maior is None or num > maior:  
         maior = num
+
 if maior is not None:
     print(f'O maior número digitado foi: {maior}')
 else:
