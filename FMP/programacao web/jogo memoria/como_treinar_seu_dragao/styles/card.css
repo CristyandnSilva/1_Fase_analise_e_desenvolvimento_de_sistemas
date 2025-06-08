@@ -19,12 +19,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
-  background-color: #3a3a3a;
+  background-color: #ffffff;
 }
 
 .jogo .card img {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
 /*  border-radius: 30px 30px 30px 30px;*/
 }
 
@@ -82,8 +82,8 @@
 
 .frente,
 .verso {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   padding: 15px;
   position: absolute;
   backface-visibility: hidden;
